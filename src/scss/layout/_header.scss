@@ -1,0 +1,14 @@
+.header {
+    background-color: $headerBackground;
+    display: flex; 
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    &__image {
+        height: 14px;
+        width: 16px;
+    }
+}
