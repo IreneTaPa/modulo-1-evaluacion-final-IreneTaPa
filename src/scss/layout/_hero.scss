@@ -7,17 +7,32 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.hero__title { 
+    &__title { 
     font-family: $titleFont; 
     color:$whiteBackground;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 50px;
-}
-.hero__text {
+    margin-top: 265px;
+    }
+    &__text {
     font-family: $textFont;
     color:$whiteBackground;
     text-align: center;
+    margin-top: 25px;
+    }    
 }
+.hero__div {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: $whiteBackground;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+     
+}
+.hero__scroll {
+        margin-top: 17px;
+    } 
