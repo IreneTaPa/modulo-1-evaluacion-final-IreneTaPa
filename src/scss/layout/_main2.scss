@@ -1,19 +1,28 @@
 .main2 {
-    height: 35vh;
+    height: 50vh;
     background-color: $whiteBackground;
     &__div {
+    margin-left: $margin;
     margin-top: 25px;
     color: $blueBackground;
+    font-size: 14px;
+    font-family: $textFont;
     }
     &__title {
    margin-top: 10px;
+   margin-left: $margin;
+   margin-right: $margin;
    font-family: $titleFont;
    font-size: 25px;
    font-weight: 600;
+   line-height: 1.20;       
    }
     &__text {
     margin-top: 20px;
+    margin-left: $margin;
+    margin-right: $margin;
     font-family: $textFont;
+    font-weight: 400;
     font-size: 17px;
     color: #4a4a4a;
     line-height: 1.60;
@@ -23,6 +32,7 @@
 .main2__button {
     margin-top: 30px;
     margin-bottom: 45px;
+    margin-left: $margin;
     width: 80px;
     height: 45px;
     border: 3px solid $buttonsColor;
