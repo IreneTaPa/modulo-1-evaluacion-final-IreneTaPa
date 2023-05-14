@@ -33,9 +33,9 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    transform: translateY(50%)
-     
-}
-.hero__scroll {
+    justify-content: center;
+    transform: translateY(50%);
+    &__scroll {
         margin-top: 17px;
     } 
+}

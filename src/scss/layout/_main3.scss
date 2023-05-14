@@ -14,11 +14,10 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-   
 }
 .main3__article {
-    margin-top: 35px; 
-    margin-bottom: 35px; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
 }
 .main3__subtitles {
     font-family: $titleFont;
@@ -30,8 +29,7 @@
     font-size: 18px;
     font-weight: 400;
     font-family: $textFont;
-    margin: 4px 70px 0 70px; 
-
+    margin: 4px 70px 0 70px;
 }
 .main3__button {
     margin-top: $margin;
