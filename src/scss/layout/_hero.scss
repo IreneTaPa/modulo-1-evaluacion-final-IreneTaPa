@@ -1,5 +1,5 @@
 .principal_main {
-    height: 50vh;
+    height: 50vh;   
 }
 .hero {
     background-image: url(../images/cover.jpg);
@@ -10,6 +10,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media (min-width: 768px) {
+            height: 100vh;
+        }
     &__title { 
     font-family: $titleFont; 
     color:$whiteBackground;
@@ -17,12 +20,18 @@
     font-size: 40px;
     font-weight: 500;
     margin-top: 200px;
+    @media (min-width: 768px){
+        font-size: 75px;
+    }
     }
     &__text {
     font-family: $textFont;
     color:$whiteBackground;
     text-align: center;
     margin-top: 25px;
+    @media (min-width: 768px) {
+        font-size: 25px;
+        }
     }    
 }
 .hero__div {

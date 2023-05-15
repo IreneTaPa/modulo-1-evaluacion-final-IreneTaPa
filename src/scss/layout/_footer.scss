@@ -1,6 +1,6 @@
 .footer {
     height: 70vh;
-    background-color: $footerBackground;   
+    background-color: $footerBackground;  
 }
 .footer__div {
     height: 50px; 
@@ -12,8 +12,14 @@
     justify-content: center;
     transform: translateY(-50%);
     margin-left: 135px; 
+    @media (min-width: 768px) {
+    margin-left: 350px;
+    }
+    @media (min-width: 1280px) {
+        margin-left: 630px;
+    }
+    
 }
-
 .footer__nav {
     width: 90px;
     margin-bottom: 30px;
@@ -21,9 +27,13 @@
     margin-left: 115px;
     text-align: center;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    @media (min-width: 768px) {
+        display: inline-flex;
+    }
 }
 .footer__list1 {
   margin-left: 37px;
@@ -31,6 +41,9 @@
 }
 .footer__list2 {
     margin-top: 30px;
+    @media (min-width: 768px) {
+            margin-right: 30px;
+        }
 }
 
 .footer__list--link {
@@ -47,4 +60,14 @@
     display: flex;
     justify-content: center;
     margin-bottom: 11px;
+    @media (min-width: 768px) {
+        justify-content: flex-start;
+        margin-left: 40px;
+    }
 }
+.smalls {
+    @media (min-width: 768px) {
+        margin-bottom: 100px;
+    }
+}
+

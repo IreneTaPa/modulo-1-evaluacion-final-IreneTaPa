@@ -1,5 +1,5 @@
 .main2 {
-    height: 50vh;
+    height: 45vh;
     background-color: $whiteBackground;
     &__div {
     margin-left: $margin;
@@ -7,15 +7,31 @@
     color: $blueBackground;
     font-size: 14px;
     font-family: $textFont;
+    @media (min-width: 768px) {
+         margin-left: 40px;
+        }
+    @media (min-width: 1280px) {
+        margin-left: 40px;
     }
-    &__title {
+    } 
+   &__title {
    margin-top: 10px;
    margin-left: $margin;
    margin-right: $margin;
    font-family: $titleFont;
    font-size: 25px;
    font-weight: 600;
-   line-height: 1.20;       
+   line-height: 1.20;
+   @media (min-width: 768px) {
+        margin-left: 40px; 
+        margin-top: 15px;
+        .line {
+            display: none;
+            }
+    }
+    @media (min-width: 1280px) {
+            margin-left: 40px;
+    }
    }
     &__text {
     margin-top: 20px;
@@ -26,7 +42,16 @@
     font-size: 17px;
     color: #4a4a4a;
     line-height: 1.60;
-    }  
+    @media (min-width: 768px) {
+            margin-left: 40px;
+            margin-top: 30px;
+            font-size: 20px;
+            margin-right: 40px;
+        }
+    } 
+    @media (min-width: 1280px) {
+            margin-left: 280px;
+    }
 
 }
 .main2__button {
@@ -42,4 +67,11 @@
     font-weight: 600;
     font-family: $textFont;
     border-radius: 25px;
+    @media (min-width: 768px) {
+        margin-left: 40px;
+        width: 90px;
+    }
+    @media (min-width: 1280px) {
+        width: 150px;
+    }
 }
