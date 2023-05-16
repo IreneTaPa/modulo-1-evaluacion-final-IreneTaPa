@@ -70,3 +70,8 @@
         text-transform: capitalize;
     }
 }
+.main3__button:hover {
+    background-color: $whiteBackground;
+    color: $buttonsColor;
+    cursor: pointer;
+}

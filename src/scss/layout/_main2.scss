@@ -79,3 +79,8 @@
         margin-top: 30px;
     }
 }
+.main2__button:hover {
+    color: $whiteBackground;
+    background-color: $buttonsColor;
+    cursor: pointer;
+}
