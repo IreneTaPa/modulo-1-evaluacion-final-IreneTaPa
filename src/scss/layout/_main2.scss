@@ -1,5 +1,5 @@
 .main2 {
-    height: 45vh;
+    height: 60vh;
     background-color: $whiteBackground;
     &__div {
     margin-left: $margin;
@@ -12,6 +12,7 @@
         }
     @media (min-width: 1280px) {
         margin-left: 40px;
+        margin-top: 70px;
     }
     } 
    &__title {
@@ -51,6 +52,8 @@
     } 
     @media (min-width: 1280px) {
             margin-left: 280px;
+            font-size: 20px;
+            width: 700x;
     }
 
 }
@@ -73,5 +76,6 @@
     }
     @media (min-width: 1280px) {
         width: 150px;
+        margin-top: 30px;
     }
 }

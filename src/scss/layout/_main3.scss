@@ -2,6 +2,9 @@
     height: 90vh;
     background-color: #eff9ff;
     text-align: center;
+    @media (min-width: 768px) {
+        height: 65vh; 
+    }
 }
 .main3__title {
     padding-top: 35px;
@@ -9,6 +12,9 @@
     font-weight: 600;
     font-size: 25px;
     text-align: center;
+    @media (min-width: 1280px) {
+        font-size: 32px;
+    }
 }
 .section__articles{
     display: grid;
@@ -44,6 +50,9 @@
             font-size: 20px;
             margin-top: 15px;
         }
+    @media (min-width: 1280px) {
+        font-size: 22px;
+    }
 }
 .main3__button {
     margin-top: $margin;
@@ -56,4 +65,8 @@
     border-radius: 25px;
     font-family: $textFont;
     font-size: 18px;   
+    @media (min-width: 1280px) {
+        width: 255px;
+        text-transform: capitalize;
+    }
 }

@@ -1,73 +1,84 @@
 .footer {
-    height: 70vh;
-    background-color: $footerBackground;  
+    height: 80vh;
+    background-color: $footerBackground; 
+    @media (min-width: 768px){
+        height: 50vh;
+    }
 }
-.footer__div {
-    height: 50px; 
-    width: 50px;
+.footer__div1 {
+    height: 45px; 
+    width: 45px;
     border-radius: 50%;
-    background-color: $whiteBackground;
-    display: inline-flex;
+    background-color: $whiteBackground; 
+    display: flex;
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
-    margin-left: 135px; 
+    margin-left: 140px;
     @media (min-width: 768px) {
-    margin-left: 350px;
+        margin-left: 360px;
     }
     @media (min-width: 1280px) {
-        margin-left: 630px;
+            margin-left: 620px;
     }
-    
 }
-.footer__nav {
-    width: 90px;
-    margin-bottom: 30px;
-    margin-top: 25px;
-    margin-left: 115px;
-    text-align: center;
+.footer__div2 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
     @media (min-width: 768px) {
-        display: inline-flex;
+    flex-direction: row; 
+    justify-content: space-around;  
+    }
+    @media (min-width: 1280px) {
+        justify-content: space-evenly;
     }
 }
-.footer__list1 {
-  margin-left: 37px;
-  margin-right: 37px; 
-}
-.footer__list2 {
-    margin-top: 30px;
+.footer__list1, .footer__list2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
     @media (min-width: 768px) {
-            margin-right: 30px;
-        }
+        margin-left: 20px;
+    }
 }
-
+.footer__nav1 {
+@media (min-width: 768px) {
+    order: 2;
+    }  
+}
+.footer__nav2 {
+@media (min-width: 768px) {
+    order: 3; 
+    }  
+}
 .footer__list--link {
-    display: block;
     color: $whiteBackground;
     text-decoration: none;
     font-family: $textFont;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    
 }
-.footer__small1, .footer__small2 {
+.smalls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: $whiteBackground;
     font-family: $textFont;
     font-size: 13px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 11px;
+    margin-bottom: 40px;
     @media (min-width: 768px) {
-        justify-content: flex-start;
-        margin-left: 40px;
+        align-items: flex-start;
+        order: 1;
+        margin-bottom: 95px;
     }
+}  
+.footer__small1 {
+    margin-bottom: 10px;
 }
-.smalls {
-    @media (min-width: 768px) {
-        margin-bottom: 100px;
-    }
-}
+
+    
+
 
